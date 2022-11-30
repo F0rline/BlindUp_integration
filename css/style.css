@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@media screen and (max-width: 430px) {
+    
+    body {
+        background-color: #FFBF00;
+    }
+
+    /* @@@ [Mobile] Header */
+
+    header {
+        display: flex;
+        align-items: flex-end;
+        background-color: #FFBF00;
+        width: 100vh;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        position: fixed;
+        gap: 18px;
+    }
+
+    header a {
+        color: black;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+    }
+
+    .text-header {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .header_menu_logo {
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    /* @@@ [Mobile] Footer */
+
+    footer {
+        display: flex;
+        align-items: flex-end;
+        gap: 30px;
+        background-color: rgba(0, 0, 0, 0.70);
+        padding: 10px 10px;
+        margin-top: 30px;
+    }
+
+    .home_logo {
+        height: 109px;
+        margin-top: 80px;
+        padding-left: 20px;
+    }
+
+    /* @@@ [Mobile] Titres */
+
+    h1 {
+        font-family: 'Comfortaa', cursive;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;
+        padding-left: 35px;
+    }
+
+    h2 {
+        font-family: 'Comfortaa', cursive;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+
+    h3 {
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        font-size: 13px;
+    }
+
+    /* @@@ [Mobile] 1ère partie de la page */
+
+    .first_part {
+        margin-right: 35px;
+    }
+
+    .bottom_text {
+        padding-left: 35px;
+        font-size: 18px;
+    }
+
+    .button_home {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 30px;
+        gap: 10px;
+    }
+
+    .button_shop {
+        border-radius: 90px;
+        background-color: rgba(0, 0, 0, 0.70);
+        border: 1px rgba(0, 0, 0, 0.70) solid;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
+        padding: 10px 8px;
+    }
+
+    .button_view_more {
+        border: 3px rgba(0, 0, 0, 0.70) solid;
+        background-color: #FFBF00;
+        border-radius: 90px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
+        padding: 5px 44px;
+    }
+
+    .home_image {
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    /* @@@ [Mobile] 2e partie de la page accueil */
+
+    .second_part {
+        margin-top: 40px;
+    }
+
+    .home_video {
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 350px;
+    }
+
+    .text {
+        font-family: 'Comfortaa', cursive;
+        color: black;
+        font-size: 18px;
+        padding-left: 35px;
+        padding-right: 45px;
+    }
+
+    .button_left {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    body {
+        background-color: #FFBF00;
+    }
+
+    /* @@@ [Tablette] Header */
+
+    header {
+        display: flex;
+        align-items: flex-end;
+        background-color: #FFBF00;
+        width: 100vh;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        position: fixed;
+        gap: 18px;
+    }
+
+    header a {
+        color: black;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+    }
+
+    .text-header {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .header_menu_logo {
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    /* @@@ [Tablette] Footer */
+
+    footer {
+        display: flex;
+        align-items: flex-end;
+        gap: 30px;
+        background-color: rgba(0, 0, 0, 0.70);
+        padding: 10px 10px;
+        margin-top: 30px;
+    }
+
+    .home_logo {
+        height: 109px;
+        margin-top: 80px;
+        padding-left: 20px;
+    }
+
+    /* @@@ [Tablette] Titres */
+
+    h1 {
+        font-family: 'Comfortaa', cursive;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;
+        padding-left: 35px;
+    }
+
+    h2 {
+        font-family: 'Comfortaa', cursive;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+
+    h3 {
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        font-size: 13px;
+    }
+
+    /* @@@ [Tablette] 1ère partie de la page */
+
+    .first_part {
+        margin-right: 35px;
+    }
+
+    .bottom_text {
+        padding-left: 35px;
+        font-size: 18px;
+    }
+
+    .button_home {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 30px;
+        gap: 10px;
+    }
+
+    .button_shop {
+        border-radius: 90px;
+        background-color: rgba(0, 0, 0, 0.70);
+        border: 1px rgba(0, 0, 0, 0.70) solid;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
+        padding: 10px 8px;
+    }
+
+    .button_view_more {
+        border: 3px rgba(0, 0, 0, 0.70) solid;
+        background-color: #FFBF00;
+        border-radius: 90px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
+        padding: 5px 44px;
+    }
+
+    .home_image {
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    /* @@@ [Tablette] 2e partie de la page accueil */
+
+    .second_part {
+        margin-top: 40px;
+    }
+
+    .home_video {
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 350px;
+    }
+
+    .text {
+        font-family: 'Comfortaa', cursive;
+        color: black;
+        font-size: 18px;
+        padding-left: 35px;
+        padding-right: 45px;
+    }
+
+    .button_left {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+}
